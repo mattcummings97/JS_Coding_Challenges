@@ -1,4 +1,4 @@
-class Animal{
+/* class Animal{
     constructor(name){
         this.name = name
     }
@@ -33,4 +33,17 @@ class Cat extends Animal{
         console.log('Meow')
     }
 }
-let sagwa = new Cat('Sagwa', 'Simese')
+let sagwa = new Cat('Sagwa', 'Simese') */ 
+
+
+/* function reverseString(x){
+let revX = x.split('').reverse('').join('')
+}
+
+x(cow) */ 
+
+function highAndLow(numbers){
+    numbers = '1 2 3 4 5'
+    splitNum = Number(numbers.split(''))
+    console.log(splitNum)
+  }
