@@ -50,7 +50,7 @@ x(cow) */
   }*/ 
 
 
-  function findNeedle(haystack) {
+  /*function findNeedle(haystack) {
     for(let i=0;i<haystack.length;i++){
       if(haystack[i]=== 'needle'){
         console.log( `found the needle at position {haystack[i]}`)
@@ -59,4 +59,12 @@ x(cow) */
       }
     }
   }
-  findNeedle(['needle','2',2, true])
+  findNeedle(['needle','2',2, true])*/ 
+
+  function sumDigits(number) {
+    let makePositive = Math.abs(number)
+    const arrOfDigits = Array.from(String(makePositive), Number); 
+    console.log(arrOfDigits.reduce((a, b) => a + b, 0));
+  }
+
+  sumDigits(-35)
