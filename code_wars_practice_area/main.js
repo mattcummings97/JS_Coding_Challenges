@@ -61,10 +61,67 @@ x(cow) */
   }
   findNeedle(['needle','2',2, true])*/ 
 
-  function sumDigits(number) {
+  /* function sumDigits(number) {
     let makePositive = Math.abs(number)
     const arrOfDigits = Array.from(String(makePositive), Number); 
     console.log(arrOfDigits.reduce((a, b) => a + b, 0));
   }
 
   sumDigits(-35)
+*/ 
+
+/*let promise = new Promise((resolve,reject) =>{
+  const error = false 
+  if(!error){
+    resolve('Promise has been fulfilled')
+  }else{
+    reject('Error, Proise has failed')
+  }
+})
+
+console.log(promise)
+promise
+.then(data=> console.log(data))
+.catch(err=>console.log(err))
+*/ 
+
+
+
+
+/* function houseOne(resolve, reject){
+  const paid = true;
+  const delivered = true;
+  setTimeout(() => {
+    if(paid === true & delivered === true){
+      resolve('House One Is Paid & Delivered')
+    }else{
+      reject('There was an error with House One')
+    }
+  },5000)
+}
+
+houseOne() */ 
+
+/*function isIsogram(str){
+  let arr = str.split('')
+  for(i = 0;i)
+  console.log(arr)
+}
+
+isIsogram('Jedi')*/ 
+
+const promise = new Promise((resolve,reject) => {
+  const error = true
+  if(!error){
+    resolve('Promise has been fulfilled')
+  }else{
+    reject('Error: Opperation has failed')
+  }
+})
+promise 
+  .then(data => console.log(data))
+  .catch(err => console.log(err))
+
+  const promise = new Promise((resolve,reject)
+
+  )
