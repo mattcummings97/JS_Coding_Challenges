@@ -110,7 +110,7 @@ houseOne() */
 
 isIsogram('Jedi')*/ 
 
-const promise = new Promise((resolve,reject) => {
+/* const promise = new Promise((resolve,reject) => {
   const error = true
   if(!error){
     resolve('Promise has been fulfilled')
@@ -124,4 +124,39 @@ promise
 
   const promise = new Promise((resolve,reject)
 
-  )
+  ) */ 
+
+/* const array = s.split('')
+const output = []
+
+for (let i = 0; i < array.length; i++) {
+  output.push(array[i].toUpperCase() + array[i].toLowerCase().repeat(i))
+}
+
+return output.join('-') */
+
+/* Story
+
+Ben has a very simple idea to make some profit: he buys something and sells it again. Of course, this wouldn't give him any profit at all if he was simply to buy and sell it at the same price. Instead, he's going to buy it for the lowest possible price and sell it at the highest.
+
+Task
+
+Write a function that returns both the minimum and maximum number of the given list/array.
+
+Examples(Input --> Output)
+
+[1,2,3,4,5] --> [1,5]
+[2334454,5] --> [5, 2334454]
+[1]         --> [1, 1]
+Remarks
+
+All arrays or lists will always have at least one element, so you don't need to check the length. Also, your function will always get an array or a list, you don't have to check for null, undefined or similar.*/ 
+
+function minMax(arr){
+  let x = Math.max(...arr)
+  let n = Math.min(...arr)
+  const array = [Math.min(...arr), Math.max(...arr)]
+  return array
+}
+minMax([1,2,3,4,5,6,7,8,9])
+
