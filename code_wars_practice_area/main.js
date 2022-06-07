@@ -166,3 +166,9 @@ minMax([1,2,3,4,5,6,7,8,9])*/
   return orderedArray
 }
  digitize(234456)*/ 
+
+ function fakeBin(x){
+  const makeArr = String(x).split(',')
+  console.log(makeArr)
+ }
+fakeBin(45385593107843568)
