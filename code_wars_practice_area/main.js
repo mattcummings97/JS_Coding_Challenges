@@ -152,11 +152,17 @@ Remarks
 
 All arrays or lists will always have at least one element, so you don't need to check the length. Also, your function will always get an array or a list, you don't have to check for null, undefined or similar.*/ 
 
-function minMax(arr){
+/* unction minMax(arr){
   let x = Math.max(...arr)
   let n = Math.min(...arr)
   const array = [Math.min(...arr), Math.max(...arr)]
   return array
 }
-minMax([1,2,3,4,5,6,7,8,9])
+minMax([1,2,3,4,5,6,7,8,9])*/ 
 
+/*function digitize(n) {
+  const arrayOfDigits = Array.from(String(n), Number);
+  const orderedArray = arrayOfDigits.sort((a,b)=> b - a )
+  return orderedArray
+}
+ digitize(234456)*/ 
