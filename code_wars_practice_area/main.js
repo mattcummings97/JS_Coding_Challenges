@@ -167,8 +167,25 @@ minMax([1,2,3,4,5,6,7,8,9])*/
 }
  digitize(234456)*/ 
 
- function fakeBin(x){
+ /* function fakeBin(x){
   const makeArr = String(x).split(',')
   console.log(makeArr)
  }
-fakeBin(45385593107843568)
+fakeBin(45385593107843568)*/ 
+
+/* unction reverseWords(str) {
+  let reverseStr = str.split(" ").map(word => word.split('').reverse().join(""))
+ console.log(reverseStr.join(' '));
+}
+
+reverseWords("This is an example!")*/ 
+
+function friend(friends){
+  let name = friends[i]
+  for(i=0;i<name.length;i++){
+    if(name === 4){
+      return name
+    }
+  }
+}
+friend(['mary', 'steven', 'mark', 'joe'])
