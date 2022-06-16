@@ -180,7 +180,7 @@ fakeBin(45385593107843568)*/
 
 reverseWords("This is an example!")*/ 
 
-function friend(friends){
+/* function friend(friends){
   let name = friends[i]
   for(i=0;i<name.length;i++){
     if(name === 4){
@@ -188,4 +188,14 @@ function friend(friends){
     }
   }
 }
-friend(['mary', 'steven', 'mark', 'joe'])
+friend(['mary', 'steven', 'mark', 'joe'])*/ 
+
+function squareDigits(num){
+  const arrOfDigits = Array.from(String(num), Number);
+  for(i=0; i < arrOfDigits.length; i++){
+    let Array = Math.pow(arr[i],2);
+  }
+  console.log(Array)
+}
+
+squareDigits(1991)
