@@ -190,7 +190,7 @@ reverseWords("This is an example!")*/
 }
 friend(['mary', 'steven', 'mark', 'joe'])*/ 
 
-function squareDigits(num){
+/*function squareDigits(num){
   const arrOfDigits = Array.from(String(num), Number);
   for(i=0; i < arrOfDigits.length; i++){
     let Array = Math.pow(arr[i],2);
@@ -198,4 +198,12 @@ function squareDigits(num){
   console.log(Array)
 }
 
-squareDigits(1991)
+squareDigits(1991)*/ 
+
+function sortInOrder(array){
+  let result = array.sort((a,b) => a.length - b.length)
+  console.log(result)
+}
+
+sortInOrder(['zebra', 'token', 'loveshack', 'beatlejuice', 'led'])
+
