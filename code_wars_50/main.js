@@ -15,10 +15,10 @@ The tests will always use some integral number, so don't worry about that in dyn
 */ 
 
 var isSquare = function(n){
-let x = Math.sqrt(n)
-if(x * x === n){
-  return true;
-}else{
-  return false;
-}
-}
+  let x = Math.sqrt(n)
+  if(x * x === n && Math.sqrt(n) % 1 === 0){
+    return true
+    }else{
+      return false;
+    }
+  }
