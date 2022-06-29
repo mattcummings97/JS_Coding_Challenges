@@ -200,10 +200,16 @@ friend(['mary', 'steven', 'mark', 'joe'])*/
 
 squareDigits(1991)*/ 
 
-function sortInOrder(array){
+/*function sortInOrder(array){
   let result = array.sort((a,b) => a.length - b.length)
   console.log(result)
 }
 
-sortInOrder(['zebra', 'token', 'loveshack', 'beatlejuice', 'led'])
+sortInOrder(['zebra', 'token', 'loveshack', 'beatlejuice', 'led'])*/ 
 
+var capitals = function (word) {
+  let wordToArray = word.from('')
+  console.log(wordToArray)
+} 
+
+capitals('Tampa Bay Rays')
