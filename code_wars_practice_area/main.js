@@ -207,9 +207,10 @@ squareDigits(1991)*/
 
 sortInOrder(['zebra', 'token', 'loveshack', 'beatlejuice', 'led'])*/ 
 
-var capitals = function (word) {
+/* var capitals = function (word) {
   let wordToArray = word.from('')
   console.log(wordToArray)
 } 
 
-capitals('Tampa Bay Rays')
+capitals('Tampa Bay Rays')*/ 
+
