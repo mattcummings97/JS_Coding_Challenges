@@ -214,3 +214,25 @@ sortInOrder(['zebra', 'token', 'loveshack', 'beatlejuice', 'led'])*/
 
 capitals('Tampa Bay Rays')*/ 
 
+
+
+function disemvowel(str) {
+  let newstr = str.split('')
+for(let index = 0;index < str.length; index++){
+  if(newstr[index] === 'a') {
+    newstr.splice(index, 1);
+  }else if(newstr[index] === 'e') {
+    newstr.splice(index, 1);
+  }else if(newstr[index] === 'i') {
+    newstr.splice(index, 1);
+  }if(newstr[index] === 'o') {
+    newstr.splice(index, 1);
+  }if(newstr[index] === 'u') {
+    newstr.splice(index, 1);
+  }
+  
+}
+return str.join('')
+}
+
+disemvowel('haha! what a loser!')
