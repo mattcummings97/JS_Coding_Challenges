@@ -212,27 +212,13 @@ sortInOrder(['zebra', 'token', 'loveshack', 'beatlejuice', 'led'])*/
   console.log(wordToArray)
 } 
 
-capitals('Tampa Bay Rays')*/ 
+*/ 
 
 
-
-function disemvowel(str) {
-  let newstr = str.split('')
-for(let index = 0;index < str.length; index++){
-  if(newstr[index] === 'a') {
-    newstr.splice(index, 1);
-  }else if(newstr[index] === 'e') {
-    newstr.splice(index, 1);
-  }else if(newstr[index] === 'i') {
-    newstr.splice(index, 1);
-  }if(newstr[index] === 'o') {
-    newstr.splice(index, 1);
-  }if(newstr[index] === 'u') {
-    newstr.splice(index, 1);
-  }
-  
-}
-return str.join('')
+function reverseLetter(str) {
+let arr = str.split('')
+let revarr = arr.reverse()
+console.log(revarr)
 }
 
-disemvowel('haha! what a loser!')
+reverseLetter('gronkowski')
